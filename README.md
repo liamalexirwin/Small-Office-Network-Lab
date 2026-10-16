@@ -1,29 +1,40 @@
-# Small Office Network
+# Small Office Network Lab
 
 ## Overview
-Setting up 4 PCs to be able to communicate to each other on a local network 
+Built a small office local area network (LAN) in Cisco Packet Tracer 
+connecting 4 PCs through a managed switch. Practiced manual IP addressing, 
+cable selection, and verified connectivity through ping testing.
+
+## Network Topology
+![Network Topology](screenshots/topology.png)
 
 ## Objectives
--Connecting 4 PCs to a switch
--Assinging IP addresses to each PC
--Ping IP addresses between PCs to ensure they are connected
+- Connect 4 PCs to a switch in a LAN environment
+- Manually assign static IP addresses to each device
+- Verify full connectivity between all devices using ping
+- Understand cable types and when each is appropriate
 
 ## Environment
-| 4 PCs 1 Switch | 4 PCs connected to a central switch via copper straight-through cables |
-| Cisco Packet Tracer
-| Network Type | Local Network |
-| IP Range | 192.168.1.0/24 |
+| Component | Details |
+|---|---|
+| Software | Cisco Packet Tracer |
+| Devices | 1 x 2960 Switch, 4 x PCs |
+| Cable Type | Copper Straight-Through |
+| Network | 192.168.1.0/24 |
 
-## What I Built
-- A small local network with 4 PCs connected to a switch to be able to communicate with each other 
+## IP Address Table
+| Device | IP Address | Subnet Mask |
+|---|---|---|
+| PC1 | 192.168.1.1 | 255.255.255.0 |
+| PC2 | 192.168.1.2 | 255.255.255.0 |
+| PC3 | 192.168.1.3 | 255.255.255.0 |
+| PC4 | 192.168.1.4 | 255.255.255.0 |
+
+## Steps Taken
+1. Added a 2960 switch and 4 PCs to the Packet Tracer canvas
+2. Connected each PC to the switch using copper straight-through cables
+3. Assigned static IP addresses and subnet masks to each PC
+4. Opened Command Prompt on each PC and ran ping tests to verify connectivity
+5. Checked the switch MAC address table using `show mac address-table`
 
 ## Commands Used
--No commands
-
-## Problems I Encountered & How I Fixed Them
-| Problem with PC 1 not being able to connect to the switch | improper cable used | Switched to Copper Straight-Through cable |
-
-## What I Learned
-- Connecting 4 PCs to a switch in a local network environment
-- Assining IP addresses to each computer manually
-- Each cables use and when its appropriate to use certain cables
