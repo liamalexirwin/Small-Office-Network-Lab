@@ -6,7 +6,7 @@ connecting 4 PCs through a managed switch. Practiced manual IP addressing,
 cable selection, and verified connectivity through ping testing.
 
 ## Network Topology
-![Network Topology](screenshots/topology.png)
+![Network Topology](https://github.com/liamalexirwin/Small-Office-Network-Lab/blob/main/Screenshots/Screenshot%20(58).png)
 
 ## Objectives
 - Connect 4 PCs to a switch in a LAN environment
